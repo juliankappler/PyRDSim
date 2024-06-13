@@ -5,9 +5,9 @@
 This module allows to simulate many-particle overdamped Langevin dynamics, including reactions that change the interaction properties of individual particles. 
 
 Some features (which are illustrated in the examples below):
-* *Reactions that depend on the local neighborhood of a particle.* Any reaction can either have a constant rate, or a rate that depends on the neighborhood of the particle (to model e.g. catalyzed deactivation, or inhibited deactivation, of a molecule). Particles that undergo reactions can change their chemical properties, i.e. the way they interact.
-* *Molecules* that consist of several particles can be defined straightforwardly. We illustrate this in the examples below with a patchy colloid model.
-* *Attractive walls* can be defined at box boundaries (to model e.g. binding to a surface)
+* **Reactions that depend on the local neighborhood of a particle.** Any reaction can either have a constant rate, or a rate that depends on the neighborhood of the particle (to model e.g. catalyzed deactivation, or inhibited deactivation, of a molecule). Particles that undergo reactions can change their chemical properties, i.e. the way they interact.
+* **Molecules** that consist of several particles can be defined straightforwardly. We illustrate this in the examples below with a patchy colloid model.
+* **Attractive walls** can be defined at box boundaries (to model e.g. binding to a surface)
 
 ## Examples
 
@@ -19,11 +19,11 @@ Each example comes with code to generate a random initial condition, equilibrate
 
 * [lennard-jones](https://github.com/juliankappler/PyRDSim/blob/main/examples/lennard-jones/): Run overdamped Langevin simulations of Lennard-Jones particles (without any reactions). There are two subfolders, one for running a single particle species, and one for running two particle species. Here is an example video for the latter:
 
-
+https://github.com/juliankappler/PyRDSim/assets/37583039/367e7e1e-2707-49b0-952a-75c5003e307f
 
 * [lennard-jones-wall](https://github.com/juliankappler/PyRDSim/blob/main/examples/lennard-jones-wall/): Run overdamped Langevin simulations of Lennard-Jones particles, with periodic boundary conditions in the $x$-direction and reflecting boundary conditions in the $y$-direction. The particles can be in a deactivated and an activated state. The activation rate is constant. The deactivation rate is only nonzero if another activated particle is close by. Activated particles feel an attraction to each other, and to the lower boundary of the domain ($y=0$). Here is a video:
 
-
+https://github.com/juliankappler/PyRDSim/assets/37583039/5645923c-aefa-4553-acc2-9be553b976fb
 
 
 ## Usage
