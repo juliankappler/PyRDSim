@@ -1,0 +1,14 @@
+[ molecule ]
+
+molecule_id = 0
+N_atoms = 3
+
+[ bonds ]
+; ai  aj    r0   U0
+0   1     1.0    400.0
+0   2     1.0    400.0
+
+
+[ angles ]
+; ai  aj    theta0  k
+1   0   2  180.    0.25978

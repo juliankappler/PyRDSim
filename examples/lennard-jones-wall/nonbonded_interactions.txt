@@ -1,0 +1,46 @@
+[ interaction ]
+
+type=lj
+pair=0 0
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+[ interaction ]
+
+type=lj
+pair=0 1
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+
+[ interaction ]
+
+type=lj
+pair=1 1
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+
+[ interaction ]
+type=tanh
+pair=1 1
+U0=3.500
+r0=2.15
+a=0.05
+rc=3.15
+
+
+[ interaction ]
+type = wall
+particle_type=1 
+direction = 1 # y direction
+r0 = 4.
+U0 = 10.
+a= .1
+rc= 3.5

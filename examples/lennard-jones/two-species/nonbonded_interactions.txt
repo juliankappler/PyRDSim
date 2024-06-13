@@ -1,0 +1,56 @@
+########################
+# Interactions 0 <-> 0 #
+########################
+
+[ interaction ]
+
+type=lj
+pair=0 0
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+[ interaction ]
+type=tanh
+pair=0 0
+U0=3.500
+r0=2.15
+a=0.05
+rc=3.15
+
+########################
+# Interactions 0 <-> 1 #
+########################
+
+[ interaction ]
+
+type=lj
+pair=0 1
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+
+########################
+# Interactions 1 <-> 1 #
+########################
+
+[ interaction ]
+
+type=lj
+pair=1 1
+U0=0.2
+r0 = 2.25
+rc=5.0
+n=10
+
+[ interaction ]
+type=tanh
+pair=1 1
+U0=3.500
+r0=2.15
+a=0.05
+rc=3.15
+

@@ -1,0 +1,25 @@
+# spatial parameters
+N_dim = 2
+L = 50.0 15.0 # box size
+periodic = 1 -1 # periodic in both x and y direction
+
+# temporal parameters
+dt = 1e-06
+N_steps = 10001
+stride = 1000 # for output of trajectory
+N_out = 10000
+
+# friction coefficient for each particle type
+tau_by_tauD = 1.000 1.000  # negative friction = particle frozen
+
+# files
+bonded_interactions_filename =bonded_interactions.txt
+nonbonded_interactions_filename =nonbonded_interactions.txt
+reactions_filename =reactions.txt
+initial_conditions_filename =./initial-conditions/initial_conditions.txt
+trajectory_filename=trajectory.h5
+
+# other parameters
+neighbor_list_update_frequency = 20
+rs = 7. # neighbor list cutoff
+cell_length_ratio = 2

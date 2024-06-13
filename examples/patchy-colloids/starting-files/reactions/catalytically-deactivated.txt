@@ -1,0 +1,14 @@
+[ reaction ] # activation of binding sites
+type = linear
+rate=.5
+reactant=1
+product=2
+
+
+[ reaction ] # deactivation of binding sites
+type = locally_catalyzed
+rate=0.2
+r0= 0.2
+reactant=2
+catalyst=2
+product=1

@@ -1,0 +1,22 @@
+[ interaction ]
+
+type=lj
+pair=0 0
+U0=1.0
+r0 = 2.5
+rc=5.0
+n=10
+
+
+[ interaction ]
+
+type=tanh
+pair=2 2
+U0=20.0
+r0=0.2
+a = 0.1
+rc=1.0
+
+
+
+

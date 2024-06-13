@@ -1,0 +1,14 @@
+[ reaction ] # activation of binding
+type = linear
+rate=.1
+reactant=0
+product=1
+
+
+[ reaction ] # deactivation of binding
+type = locally_catalyzed
+rate=0.02
+r0=3.0
+reactant=1
+catalyst=1
+product=0

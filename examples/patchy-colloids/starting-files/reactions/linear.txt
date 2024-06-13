@@ -1,0 +1,12 @@
+[ reaction ] # activation of binding sites
+type = linear
+rate=.5
+reactant=1
+product=2
+
+
+[ reaction ] # deactivation of binding sites
+type = linear
+rate=0.5
+reactant=2
+product=1

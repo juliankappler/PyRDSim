@@ -1,0 +1,27 @@
+[ molecule ]
+
+molecule_id = 0
+N_atoms = 1
+
+[ bonds ]
+; ai  aj    r0   U0
+
+
+[ angles ]
+; ai  aj    theta0  k
+
+
+
+
+
+[ molecule ]
+
+molecule_id = 1
+N_atoms = 1
+
+[ bonds ]
+; ai  aj    r0   U0
+
+
+[ angles ]
+; ai  aj    theta0  k
