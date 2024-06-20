@@ -46,4 +46,6 @@ To install PyRDSim, you can run the following commands.
 >> pip install .
 ```
 
+## Acknowledgements
 
+We acknowledge funding from the European Union’s Horizon 2020 research and innovation pro- gramme under the Marie Skłodowska-Curie grant agreement No 101068745.
