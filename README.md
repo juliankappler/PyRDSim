@@ -15,7 +15,7 @@ Each example comes with code to generate a random initial condition, equilibrate
 
 * [patchy-colloids](https://github.com/juliankappler/PyRDSim/blob/main/examples/patchy-colloids/): Run overdamped Langevin simulations of patchy colloids. We include the starting files for molecules with 2, 3, 4, and 5 patches. Each patch can exist in two forms, activated or deactivated; while activated patches attract each other, deactivated patches do not interact with each other. For each number of patches (2,3,4,5), we include code to simulate three reaction variants: i) no reactions (patches always activated), ii) constant rates of activation/deactivation, and iii) constant rate of activation, catalyzed rate of deactivation. Here is a video of patchy colloids with 3 patches, and reaction scenario iii):
 
-
+https://github.com/juliankappler/PyRDSim/assets/37583039/5cc4dbe4-9faf-4d5b-ac2e-a3d5d96eb316
 
 * [lennard-jones](https://github.com/juliankappler/PyRDSim/blob/main/examples/lennard-jones/): Run overdamped Langevin simulations of Lennard-Jones particles (without any reactions). There are two subfolders, one for running a single particle species, and one for running two particle species. Here is an example video for the latter:
 
